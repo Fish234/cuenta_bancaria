@@ -4,7 +4,6 @@ class Carta
         if !(1..13).include?(numero)
             raise ArgumentError, 'Error, no cumple con los requisitos'
         end
-        # en vez de un if, pudo ser un "elsif"?
         if !['C','D','E','T'].include?(pinta)
             raise ArgumentError, "Error, no cumple con los requisitos"
         end
@@ -27,7 +26,8 @@ array = []
 end
 print array
 
-# Se supone que así se hace pero no entiendo como es que este codigo sigue las instrucciones del desafio..
+# 🡣🡣🡣🡣🡣 Bienvenido al cementerio de codigo :D 🡣🡣🡣🡣  
+
 
 #5.times do |carta|
 #    pinta1= Carta.pinta
